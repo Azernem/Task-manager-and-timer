@@ -121,8 +121,10 @@ fn test_task_manager_start() {
         false
     }
     
+    #[test]
+    #[sequential]
     /// Tests if task manager with two finite tasks works correctly during some time without panic.
-    /*fn test_two_finite_tasks_task1_manager() {
+    fn test_two_finite_tasks_task1_manager() {
         TaskManager::add_task(
             test_two_finite_tasks_task_manager_setup_fn1,
             test_two_finite_tasks_task_manager_loop_fn1,
@@ -163,7 +165,7 @@ fn test_task_manager_start() {
             unsafe { TEST_TWO_FINITE_TASK_TASK_MANAGER_COUNTER2.as_ptr().read() },
             25
         );
-    }*/
+    }
 
     /// Counter for task for test_two_different_tasks_task_manager.
     static TEST_TWO_DIFFERENT_TASK_TASK_MANAGER_COUNTER1: AtomicU32 = AtomicU32::new(1);
@@ -298,7 +300,7 @@ fn test_task_manager_start() {
     #[test]
     #[sequential]
     /// Tests if task manager works correctly with setup function during some time without panic.
-    /*fn test_setup_task_manager() {
+    fn test_setup_task_manager() {
         TaskManager::test_start_task_manager();
 
         assert_eq!(
@@ -321,7 +323,7 @@ fn test_task_manager_start() {
         );
     }
 
-    #[test]*/
+    #[test]
     /// Tests setup timer function and getting tick counter (bad unit test).
     fn test_setup_timer() {
         Timer::setup_timer();
