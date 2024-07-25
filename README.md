@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/crates/v/martos.svg)](https://crates.io/crates/martos)
 [![Release](https://img.shields.io/github/v/release/IvanArkhipov1999/Martos)](https://github.com/IvanArkhipov1999/Martos/releases)
 ![build](https://github.com/Azernem/Task-manager-and-timer/workflows/build/badge.svg)
-[![codecov](https://codecov.io/gh/BamPeers/rust-ci-github-actions-workflow/branch/main/graph/badge.svg?token=SLIHSUWHT2)](https://codecov.io/gh/BamPeers/rust-ci-github-actions-workflow)
+[![codecov](https://codecov.io/gh/Azernem/Task-manager-and-timer/branch/main/graph/badge.svg?token=SLIHSUWHT2)](https://codecov.io/gh/Azernem/Task-manager-and-timer)
 
 Martos is an elegant real-time operating system designed for creating complex multi-agent systems. 
 Developers have the flexibility to write software for Martos using either Rust (preferred) or C languages.
